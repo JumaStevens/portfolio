@@ -4,11 +4,15 @@
   "description": "Portfolio",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juma Stevens",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.1"
+  },
+  "engines": {
+    "node": "v6.9.2"
   }
 }
