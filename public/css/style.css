@@ -54,7 +54,7 @@ figure {
 	height: 100vh;
 	top:0;
 	align-items: center;
-	background-image: url("/images/background_image02.jpg");
+	background-image: url("/images/background_image.jpg");
 	background-size: cover;
 	z-index: 2;
 }
@@ -337,7 +337,7 @@ noscript {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("/images/background_image02.jpg");
+	background-image: url("/images/background_image.jpg");
 	background-size: cover;
 }
 noscript p {
