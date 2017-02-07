@@ -224,13 +224,10 @@ figure {
 #journal figcaption {
 	margin-top: 1rem;
 	color: rgba(0,0,0, 1);
-	display: flex;
-	flex-wrap: nowrap;
 }
 
-.entryTitle {
+#journal h3 {
 	font-size: 3rem;
-	justify-content: center;
 }
 
 
