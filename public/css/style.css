@@ -226,6 +226,10 @@ figure {
 	color: rgba(0,0,0, 1);
 }
 
+#jounal figcaption span {
+	font-size: 3rem;
+}
+
 
 
 /*-----------NAVIGATION-----------*/
