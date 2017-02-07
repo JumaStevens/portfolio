@@ -226,8 +226,9 @@ figure {
 	color: rgba(0,0,0, 1);
 }
 
-#jounal figcaption span {
+.entryTitle {
 	font-size: 3rem;
+	text-align: center;
 }
 
 
