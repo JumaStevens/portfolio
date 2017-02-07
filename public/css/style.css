@@ -213,10 +213,11 @@ figure {
 
 #journal figure {
 	flex-direction: column;
+	width: 50%;
 }
 
 #journal img {
-	width: 50%;
+	width: 100%;
 }
 
 #journal figcaption {
