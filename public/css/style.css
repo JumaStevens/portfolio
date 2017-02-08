@@ -151,7 +151,7 @@ figure {
 }
 
 #portfolio img {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	opacity: 0;
 }
