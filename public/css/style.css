@@ -152,8 +152,7 @@ figure {
 }
 
 #portfolio img {
-	align-self: center;
-	position: absolute;
+	position: relative;
 	width: 100%;
 	opacity: 0;
 }
