@@ -704,7 +704,7 @@ var portFigure = {
 			//figcaption styles
 			figcaption.style.alignSelf = "center";
 			figcaption.style.left = -2 + "rem";
-			figcaption.style.top = "inherit";
+			figcaption.style.top = "initial";
 			figcaption.style.fontSize = 4 + "rem";
 			figcaption.style.marginTop = 0 + "rem";
 			figcaption.getElementsByTagName("span")[0].style.display = "initial";
