@@ -225,12 +225,12 @@ figure {
 
 #journal figcaption {
 	margin-top: 1rem;
-	color: rgba(0,0,0, 1);
+	color: rgba(0,0,0, 0.7);
 }
 
 #journal h3 {
 	font-size: 2rem;
-	color: black;
+	color: rgba(0,0,0, 0.7);
 }
 
 
