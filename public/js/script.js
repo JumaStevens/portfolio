@@ -141,7 +141,7 @@ var navigation = {
 		ctxStem.beginPath();
 		ctxStem.moveTo(stem.width/2, 0);
 		ctxStem.lineTo(stem.width/2, stem.height);
-		ctxStem.lineWidth = 1;
+		ctxStem.lineWidth = 2;
 		ctxStem.strokeStyle = this.color;
 		ctxStem.stroke();
 
@@ -705,7 +705,7 @@ var portFigure = {
 			figcaption.style.alignSelf = "center";
 			figcaption.style.left = -2 + "rem";
 			figcaption.style.top = "inherit";
-			figcaption.style.fontSize = 3 + "rem";
+			figcaption.style.fontSize = 4 + "rem";
 			figcaption.style.marginTop = 0 + "rem";
 			figcaption.getElementsByTagName("span")[0].style.display = "initial";
 			figcaption.style.transitionProperty = "opacity";
@@ -718,7 +718,7 @@ var portFigure = {
 			figcaption.style.left = 0 + "rem";
 			figcaption.style.top = ((orientation.screenHeight) - (portFigure.fig[(navigation.index[0])-1].getElementsByTagName("img")[0].height)) / 2 + "px";
 			figcaption.style.marginTop = -1 + "rem";
-			figcaption.style.fontSize = 1 + "rem";
+			figcaption.style.fontSize = 1.2 + "rem";
 			figcaption.getElementsByTagName("span")[0].style.display = "none";
 			figcaption.style.transitionProperty = "opacity";
 			figcaption.style.opacity = 1;
@@ -861,7 +861,7 @@ var portFigure = {
 				ctxLine.beginPath();
 				ctxLine.moveTo(0,0);
 				ctxLine.lineTo(0,line.height);
-				ctxLine.lineWidth = 2;
+				ctxLine.lineWidth = 4;
 				ctxLine.strokeStyle = navigation.color;
 				ctxLine.stroke();
 			}
