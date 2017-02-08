@@ -148,6 +148,7 @@ figure {
 }
 
 #portfolio figure {
+	display: flex;
 	width: 50%;
 }
 
