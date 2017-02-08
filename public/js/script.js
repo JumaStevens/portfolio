@@ -651,6 +651,13 @@ var portFigure = {
 			//create figcaption
 			portFigure.caption("center");
 		}
+		//position portfolio images
+		for(let i=0;i<allFigures.length;i++) {
+			for(let j=0;j<allFigures[i].getElementsByTagName("img").length;j++) {
+				allFigures[i].getElementsByTagName("img")[j].style.top = 
+				((orientation.screenHeight) - allFigures[i].getElementsByTagName("img")[j].height) / 2 + "px";
+			}
+		}
 	},
 
 	//
