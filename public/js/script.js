@@ -493,8 +493,11 @@ var navigation = {
 			navigation.visibility[4] = "hidden";
 			//color
 			navigation.color = "white";
+			
+/*
 			//portfolio arrow
 			navigation.portArrow();
+*/
 		} else if(window.getComputedStyle(portfolio).getPropertyValue("Z-Index") === "2") {
 			//set menu items
 			navigation.visibility[1] = "initial";
@@ -623,10 +626,10 @@ var navigation = {
 			scrollHead.removeEventListener("mouseenter", this.scrollHead, false);
 			scrollHead.removeEventListener("mouseleave", this.scrollHead, false);
 		}
-	},
+	}
 
 
-
+/*
 	//portfolio arrow
 	portArrow: function() {
 		const arrow = document.getElementById("portfolioArrow");
@@ -647,6 +650,7 @@ var navigation = {
 			}
 		}, false);
 	}
+	*/
 };
 
 
