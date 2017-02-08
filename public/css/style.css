@@ -159,7 +159,7 @@ figure {
 
 #portfolio figcaption {
 	position: absolute;
-	top: inherit;
+	top: initial;
 	left: -2rem;
 	font-size: 4rem;
 	line-height: 60%;
