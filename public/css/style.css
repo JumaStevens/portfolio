@@ -147,7 +147,6 @@ figure {
 }
 
 #portfolio figure {
-	flex-direction: column;
 	width: 50%;
 }
 
