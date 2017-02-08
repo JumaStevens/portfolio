@@ -99,11 +99,11 @@ figure {
 }
 
 #aboutContent span {
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 }
 
 #aboutContent p {
-	max-width: 32rem;
+	max-width: 38rem;
 }
 
 #aboutList {
@@ -112,7 +112,7 @@ figure {
 }
 
 #aboutList h3, #aboutList li {
-	margin-right: 12rem;
+	margin-right: 16rem;
 }
 
 #aboutSocial {
