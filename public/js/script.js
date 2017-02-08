@@ -504,6 +504,8 @@ var navigation = {
 			navigation.indexHandler("set");
 			//initialize portfolio figures
 			portFigure.initialize();
+			//portfolio arrow
+			navigation.portArrow();
 		}
 
 		//implement changes
@@ -621,6 +623,13 @@ var navigation = {
 			scrollHead.removeEventListener("mouseenter", this.scrollHead, false);
 			scrollHead.removeEventListener("mouseleave", this.scrollHead, false);
 		}
+	},
+
+
+
+	//portfolio arrow
+	portArrow: function() {
+		console.log(arrow);
 	}
 };
 
