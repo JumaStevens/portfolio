@@ -493,6 +493,8 @@ var navigation = {
 			navigation.visibility[4] = "hidden";
 			//color
 			navigation.color = "white";
+			//portfolio arrow
+			navigation.portArrow();
 		} else if(window.getComputedStyle(portfolio).getPropertyValue("Z-Index") === "2") {
 			//set menu items
 			navigation.visibility[1] = "initial";
@@ -504,8 +506,6 @@ var navigation = {
 			navigation.indexHandler("set");
 			//initialize portfolio figures
 			portFigure.initialize();
-			//portfolio arrow
-			navigation.portArrow();
 		}
 
 		//implement changes
@@ -629,7 +629,23 @@ var navigation = {
 
 	//portfolio arrow
 	portArrow: function() {
-		console.log(arrow);
+		const arrow = document.getElementById("portfolioArrow");
+
+		//event listener
+		arrow.addEventListener("mouseenter", function() {
+			//check if h3 tag already exists
+			console.log(document.getElementById("portArrowTitle"));
+			if(document.getElementById("portArrowTitle") == undefined) {
+				//create element
+				const title = document.createElement("h3");
+				//assign ID
+				title.id = "portArrowTitle";
+				//innerHTML
+				title.innerHTML = "portfolio";
+				//append title to arrow
+				arrow.appendChild(title);
+			}
+		}, false);
 	}
 };
 
