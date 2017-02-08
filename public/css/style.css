@@ -143,13 +143,11 @@ figure {
 	height: 100vh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
 
 #portfolio figure {
 	display: flex;
 	width: 50%;
-	height: 50%;
 	align-items: center;
 }
 
