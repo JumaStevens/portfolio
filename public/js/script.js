@@ -630,7 +630,7 @@ var navigation = {
 	//portfolio arrow
 	portArrow: function() {
 		const arrow = document.getElementById("portfolioArrow");
-
+		console.log(arrow);
 		//event listener
 		arrow.addEventListener("mouseenter", function() {
 			//check if h3 tag already exists
