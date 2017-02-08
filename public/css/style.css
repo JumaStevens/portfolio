@@ -149,9 +149,11 @@ figure {
 	display: flex;
 	width: 50%;
 	align-items: center;
+	flex-direction: column;
 }
 
 #portfolio img {
+	align-self: center;
 	position: absolute;
 	width: 100%;
 	opacity: 0;
