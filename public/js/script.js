@@ -95,7 +95,7 @@ var navigation = {
 	//create navigation elements
 	createElements: function() {
 		//navigation menu items
-		const elements = [[this.about, 0, 2], ["Juma Stevens", 2, 0], [this.journal, 1, 2]];
+		const elements = [[this.about, 0, 2], ["Juma Stevens", 2, 0], [this.journal, 1, 2], ["View Portfolio", 2, 1]];
 
 		//create menu elements
 		for(let i=0;i<elements.length;i++) {
@@ -115,7 +115,7 @@ var navigation = {
 			//visibility
 			node.style.visibility = this.visibility[i];
 		}
-
+/*
 		//create portfolio arrow
 		const arrow = document.createElement("div");
 		//assign ID
@@ -159,7 +159,7 @@ var navigation = {
 		ctxArrowhead.lineWidth = ctxStem.lineWidth;
 		ctxArrowhead.strokeStyle = this.color;
 		ctxArrowhead.stroke();
-
+*/
 
 		//create scroll elements
 		if(orientation.screenWidth > 1000) {
