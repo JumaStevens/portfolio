@@ -269,12 +269,19 @@ nav a {
 }
 
 #nav3 {
-	margin-top: -8rem;
+	margin-top: -6rem;
 	border: 1px solid white;
 	border-radius: 5px;
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
+}
+
+#nav3:hover {
+	background-color: white;
 	mix-blend-mode: difference;
+	color: black;
+	transition-property: color background-color;
+	transition-duration: 0.25s;
 }
 
 #scrollBar {
