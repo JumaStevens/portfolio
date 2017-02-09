@@ -115,51 +115,6 @@ var navigation = {
 			//visibility
 			node.style.visibility = this.visibility[i];
 		}
-/*
-		//create portfolio arrow
-		const arrow = document.createElement("div");
-		//assign ID
-		arrow.id = "portfolioArrow";
-		//arrow width & height
-		arrow.style.width = (orientation.screenWidth/15)/2 + "px";
-		arrow.style.height = orientation.screenHeight/15 + "px";
-		//append arrow div to nav
-		nav.appendChild(arrow);
-		//position
-		arrow.style.left = (orientation.screenWidth - arrow.clientWidth) / 2 + "px";
-		arrow.style.top = (orientation.screenHeight - arrow.clientHeight) + "px";
-		//visibility
-		arrow.style.visibility = this.visibility[3];
-
-		//create arrow stem
-		const stem = document.createElement("canvas");
-		stem.width = arrow.clientWidth;
-		stem.height = arrow.clientHeight;
-		arrow.appendChild(stem);
-		//draw arrow stem
-		const ctxStem = stem.getContext("2d");
-		ctxStem.beginPath();
-		ctxStem.moveTo(stem.width/2, 0);
-		ctxStem.lineTo(stem.width/2, stem.height);
-		ctxStem.lineWidth = 2;
-		ctxStem.strokeStyle = this.color;
-		ctxStem.stroke();
-
-		//create arrowhead
-		const arrowhead = document.createElement("canvas");
-		arrowhead.width = arrow.clientWidth;
-		arrowhead.height = arrow.clientHeight;
-		arrow.appendChild(arrowhead);
-		//draw arrowhead
-		const ctxArrowhead = arrowhead.getContext("2d");
-		ctxArrowhead.beginPath();
-		ctxArrowhead.moveTo(0, arrowhead.height*.75);
-		ctxArrowhead.lineTo(arrowhead.width/2, arrowhead.height);
-		ctxArrowhead.lineTo(arrowhead.width, arrowhead.height*.75);
-		ctxArrowhead.lineWidth = ctxStem.lineWidth;
-		ctxArrowhead.strokeStyle = this.color;
-		ctxArrowhead.stroke();
-*/
 
 		//create scroll elements
 		if(orientation.screenWidth > 1000) {
@@ -943,33 +898,4 @@ var portFigure = {
 			}
 		}
 	}
-
-
-
-	
-
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
