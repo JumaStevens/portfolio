@@ -268,13 +268,9 @@ nav a {
 	margin-left: -1.2rem;
 }
 
-#portfolioArrow {
-	position: fixed;
-	margin-top: -1.2rem;
-}
-
-#portfolioArrow canvas {
-	position: fixed;
+#nav3 {
+	margin-top: -1.6rem;
+	border: 0.5rem solid white;
 }
 
 #scrollBar {

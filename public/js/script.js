@@ -460,7 +460,7 @@ var navigation = {
 				journal.style.zIndex = 5;
 			}
 		}
-		else if(this.id === "portfolioArrow") {
+		else if(this.id === "nav3") {
 			//style section
 			portfolio.style.top = 0 + "vh";
 			portfolio.style.zIndex = 2;
@@ -493,11 +493,6 @@ var navigation = {
 			navigation.visibility[4] = "hidden";
 			//color
 			navigation.color = "white";
-			
-/*
-			//portfolio arrow
-			navigation.portArrow();
-*/
 		} else if(window.getComputedStyle(portfolio).getPropertyValue("Z-Index") === "2") {
 			//set menu items
 			navigation.visibility[1] = "initial";
@@ -607,12 +602,12 @@ var navigation = {
 			nav0.addEventListener("mousedown", this.menu, false);
 			nav1.addEventListener("mousedown", this.menu, false);
 			nav2.addEventListener("mousedown", this.menu, false);
-			portfolioArrow.addEventListener("mousedown", this.menu, false);
+			nav3.addEventListener("mousedown", this.menu, false);
 		} else if (addRemove === "remove" && type === "menu") {
 			nav0.removeEventListener("mousedown", this.menu, false);
 			nav1.removeEventListener("mousedown", this.menu, false);
 			nav2.removeEventListener("mousedown", this.menu, false);
-			portfolioArrow.removeEventListener("mousedown", this.menu, false);
+			nav3.removeEventListener("mousedown", this.menu, false);
 		}
 		//add or remove scroll head events
 		else if(addRemove === "add" && type === "scrollHead") {
@@ -627,30 +622,6 @@ var navigation = {
 			scrollHead.removeEventListener("mouseleave", this.scrollHead, false);
 		}
 	}
-
-
-/*
-	//portfolio arrow
-	portArrow: function() {
-		const arrow = document.getElementById("portfolioArrow");
-		console.log(arrow);
-		//event listener
-		arrow.addEventListener("mouseclick", function() {
-			//check if h3 tag already exists
-			console.log(document.getElementById("portArrowTitle"));
-			if(document.getElementById("portArrowTitle") == undefined) {
-				//create element
-				const title = document.createElement("h3");
-				//assign ID
-				title.id = "portArrowTitle";
-				//innerHTML
-				title.innerHTML = "portfolio";
-				//append title to arrow
-				arrow.appendChild(title);
-			}
-		}, false);
-	}
-	*/
 };
 
 
