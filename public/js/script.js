@@ -95,7 +95,7 @@ var navigation = {
 	//create navigation elements
 	createElements: function() {
 		//navigation menu items
-		const elements = [[this.about, 0, 2], ["Juma Stevens", 2, 0], [this.journal, 1, 2], ["VIEW PORTFOLIO", 2, 0.75]];
+		const elements = [[this.about, 0, 2], ["Juma Stevens", 2, 0], [this.journal, 1, 2], ["VIEW PORTFOLIO", 2, 1.3]];
 
 		//create menu elements
 		for(let i=0;i<elements.length;i++) {
