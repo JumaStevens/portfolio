@@ -269,11 +269,10 @@ nav a {
 }
 
 #nav3 {
-	margin-top: -6rem;
+	margin-top: -8rem;
 	border: 1px solid white;
-	border-radius: 15px;
-	padding: 1rem 2rem;
-
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
 }
 
 #scrollBar {
